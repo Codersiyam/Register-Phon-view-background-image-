@@ -1,0 +1,77 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background: url(./image/bg.jpg) no-repeat center;
+    background-size: cover;
+    padding: 40px;
+}
+.register{
+    width: 500px;
+    background: rgba(51, 51, 51, 0.76);
+    backdrop-filter: blur(1px);
+    padding: 40px;
+    text-align: center;
+   border-radius: 15px;
+   border: 2px solid #fff;
+}
+.logo{
+    font-size: 35px;
+    font-weight: bolder;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.contant{
+    margin-bottom: 25px;
+    color: #fff;
+    padding: 0px 25px;
+}
+.inbox{
+    margin-bottom: 15px;
+}
+.form_info{
+    width: 90%;
+    padding: 10px;
+    background: transparent;
+    color: #fff;
+    caret-color: #0fd3ec;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.form_info::placeholder{
+   color: #ffffff8a;
+}
+.form_info:focus::placeholder{
+    color: #0fd3ec;
+}
+.form_info:focus{
+    border: 2px solid #0fd3ec;
+}
+.form_button{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.re_btn{
+    width: 50%;
+    cursor: pointer;
+    background: #0fd3ec;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+}
+.form_link{
+    color: #fff;
+}
+.log_link{
+    color: #0fd3ec;
+}
